@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suzuki Mehran — Pakistan's Legend, Reimagined</title>
+    <meta name="description" content="Experience the cinematic scrollytelling of the Suzuki Mehran — engineered precision, Pakistani heritage, and three decades of trust.">
+    <meta property="og:title" content="Suzuki Mehran — Pakistan's Legend, Reimagined">
+    <meta property="og:description" content="A hyper-premium automotive journey through Pakistan's most iconic car.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ══ LOADER ══════════════════════════════════════════════════════ -->
+<div class="loader" id="loader">
+    <div class="loader-inner">
+        <div class="loader-logo">Suzuki Mehran</div>
+        <div class="loader-bar-wrap">
+            <div class="loader-bar" id="loader-bar"></div>
+        </div>
+        <div class="loader-pct" id="loader-pct">0%</div>
+    </div>
+</div>
+
+<!-- ══ NAV ═════════════════════════════════════════════════════════ -->
+<nav class="navbar" id="navbar">
+    <div class="nav-inner">
+        <div class="nav-brand">Suzuki <span>Mehran</span></div>
+        <ul class="nav-links">
+            <li><a href="#overview" id="nav-overview">Overview</a></li>
+            <li><a href="#engineering" id="nav-engineering">Engineering</a></li>
+            <li><a href="#performance" id="nav-performance">Performance</a></li>
+            <li><a href="#specs" id="nav-specs">Specs</a></li>
+            <li><a href="#buy" id="nav-buy">Buy</a></li>
+        </ul>
+        <div class="nav-cta">
+            <a href="#buy" class="btn-nav" id="nav-cta-btn">Experience the Mehran</a>
+        </div>
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobile-menu">
+    <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#engineering">Engineering</a></li>
+        <li><a href="#performance">Performance</a></li>
+        <li><a href="#specs">Specs</a></li>
+        <li><a href="#buy">Buy</a></li>
+    </ul>
+</div>
+
+<!-- ══ SCROLL SEQUENCE STAGE ════════════════════════════════════════ -->
+<div class="scroll-stage" id="scroll-stage">
+    <div class="canvas-sticky">
+
+        <!-- Ambient radial glow behind canvas -->
+        <div class="canvas-glow"></div>
+
+        <!-- The canvas for frame animation -->
+        <canvas id="hero-canvas"></canvas>
+
+        <!-- Edge vignette -->
+        <div class="vignette"></div>
+
+        <!-- ── Scene 1: Hero (0–15%) ──────────────────────────────── -->
+        <div class="scene" id="scene-1">
+            <div class="scene-inner center">
+                <div class="eyebrow reveal-up" id="s1-eyebrow">The Legend</div>
+                <h1 class="headline reveal-up delay-1" id="s1-h1">Suzuki Mehran</h1>
+                <p class="sub-headline reveal-up delay-2" id="s1-sub">Pakistan's Legend, Reimagined.</p>
+                <p class="body-line reveal-up delay-3" id="s1-body">Three decades of trust, engineered into every bolt.</p>
+                <div class="scroll-hint reveal-up delay-4" id="s1-hint">
+                    <div class="scroll-mouse">
+                        <div class="scroll-wheel"></div>
+                    </div>
+                    <span class="scroll-text">Scroll to explore</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Scene 2: Chassis (15–40%) ──────────────────────────── -->
+        <div class="scene" id="scene-2">
+            <div class="scene-inner left">
+                <div class="scene-glass-box">
+                    <div class="eyebrow" id="s2-eyebrow">Construction</div>
+                    <h2 class="headline-sm" id="s2-h2">Built to last<br>a generation.</h2>
+                    <p class="body-text" id="s2-body">Proven 800cc engine, lightweight steel chassis, and optimized suspension tuned for Pakistan's roads — from Karachi highways to Khyber mountain passes.</p>
+                    <div class="spec-pill-row" id="s2-pills">
+                        <div class="spec-pill"><span>Steel</span> Monocoque</div>
+                        <div class="spec-pill"><span>800</span>cc Engine</div>
+                        <div class="spec-pill"><span>720</span>kg Curb</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Scene 3: Engine (40–65%) ──────────────────────────── -->
+        <div class="scene" id="scene-3">
+            <div class="scene-inner right">
+                <div class="scene-glass-box"><!-- s3 glass -->
+                <div class="eyebrow" id="s3-eyebrow">Powertrain</div>
+                <h2 class="headline-sm" id="s3-h2">The heart<br>of a nation.</h2>
+                <ul class="feature-list" id="s3-list">
+                    <li>
+                        <span class="fl-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 6V4m0 2a2 2 0 1 0 0 4m0-4a2 2 0 1 1 0 4m-6 8a2 2 0 1 0 0-4m0 4a2 2 0 1 1 0-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 1 0 0-4m0 4a2 2 0 1 1 0-4m0 4v2m0-6V4"/></svg>
+                        </span>
+                        <div>
+                            <strong>800cc F8B Engine</strong>
+                            <span>Refined over decades for peak reliability.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"/></svg>
+                        </span>
+                        <div>
+                            <strong>Stress-tested durability</strong>
+                            <span>Every component validated for Pakistani roads.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"/></svg>
+                        </span>
+                        <div>
+                            <strong>38 km/l fuel efficiency</strong>
+                            <span>Class-leading economy that goes the distance.</span>
+                        </div>
+                    </li>
+                </ul>
+                </div><!-- /scene-glass-box -->
+            </div>
+        </div>
+
+        <!-- ── Scene 4: Interior (65–85%) ─────────────────────────── -->
+        <div class="scene" id="scene-4">
+            <div class="scene-inner left">
+                <div class="scene-glass-box">
+                <div class="eyebrow" id="s4-eyebrow">Interior</div>
+                <h2 class="headline-sm" id="s4-h2">Comfort in<br>its purest form.</h2>
+                <p class="body-text" id="s4-body">Practical interior design, ergonomic seating, and timeless simplicity — the instinctive familiarity that made Mehran a household name across three generations.</p>
+                <div class="spec-pair" id="s4-specs">
+                    <div class="sp-item">
+                        <div class="sp-num">4</div>
+                        <div class="sp-label">Seater</div>
+                    </div>
+                    <div class="sp-divider"></div>
+                    <div class="sp-item">
+                        <div class="sp-num">165mm</div>
+                        <div class="sp-label">Ground Clearance</div>
+                    </div>
+                    <div class="sp-divider"></div>
+                    <div class="sp-item">
+                        <div class="sp-num">30L</div>
+                        <div class="sp-label">Fuel Tank</div>
+                    </div>
+                </div>
+                </div><!-- /scene-glass-box -->
+            </div>
+        </div>
+
+        <!-- ── Scene 5: Closing CTA (85–100%) ────────────────────── -->
+        <div class="scene" id="scene-5">
+            <div class="scene-inner center">
+                <div class="eyebrow" id="s5-eyebrow">Since 1989</div>
+                <h2 class="headline-xl" id="s5-h2">Iconic.<br>Reliable.<br>Yours.</h2>
+                <p class="sub-headline-sm" id="s5-sub">Suzuki Mehran. Engineered for every road in Pakistan.</p>
+                <div class="cta-row" id="s5-cta">
+                    <a href="#buy" class="btn-primary" id="cta-primary-btn">Experience the Mehran</a>
+                    <a href="#specs" class="btn-ghost" id="cta-specs-link">See full specs →</a>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- /.canvas-sticky -->
+</div><!-- /.scroll-stage -->
+
+<!-- ══ BELOW-FOLD SECTIONS ═══════════════════════════════════════════ -->
+
+<!-- Stats Strip -->
+<section class="stats-section" id="overview">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-cell">
+                <div class="stat-num" data-target="800">0<span class="stat-unit">cc</span></div>
+                <div class="stat-label">Engine Displacement</div>
+            </div>
+            <div class="stat-sep"></div>
+            <div class="stat-cell">
+                <div class="stat-num" data-target="38">0<span class="stat-unit">km/l</span></div>
+                <div class="stat-label">Fuel Efficiency</div>
+            </div>
+            <div class="stat-sep"></div>
+            <div class="stat-cell">
+                <div class="stat-num" data-target="30">0<span class="stat-unit">yrs</span></div>
+                <div class="stat-label">Production Legacy</div>
+            </div>
+            <div class="stat-sep"></div>
+            <div class="stat-cell">
+                <div class="stat-num">2.5M<span class="stat-unit">+</span></div>
+                <div class="stat-label">Units Sold in Pakistan</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Engineering Cards -->
+<section class="bsec" id="engineering">
+    <div class="container">
+        <div class="sec-header reveal-section">
+            <div class="sec-label">Engineering</div>
+            <h2 class="sec-heading">Precision in Every <em>Detail.</em></h2>
+            <p class="sec-sub">Every component engineered to perform across Pakistan's most demanding terrain.</p>
+        </div>
+        <div class="cards-grid">
+            <div class="dcard reveal-section">
+                <div class="dcard-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="3"/><path d="M19.428 15.428a2 2 0 0 0-.022 2.188l1.415 1.414a10 10 0 0 1-3.536 3.536l-1.414-1.415a2 2 0 0 0-2.189-.021M4.572 8.572a2 2 0 0 0 .021-2.188L3.178 4.97a10 10 0 0 1 3.536-3.536l1.414 1.415a2 2 0 0 0 2.19.02"/></svg>
+                </div>
+                <div class="dcard-bar"></div>
+                <h3>800cc F8B Engine</h3>
+                <p>Three-cylinder, 4-stroke powerhouse producing 38 bhp at 5,500 RPM — refined across three decades of real-world refinement.</p>
+                <div class="dcard-specs">
+                    <div class="ds-row"><span>Type</span><span>Inline-3, SOHC</span></div>
+                    <div class="ds-row"><span>Power</span><span>38 bhp @ 5,500 rpm</span></div>
+                    <div class="ds-row"><span>Torque</span><span>59 Nm @ 3,000 rpm</span></div>
+                    <div class="ds-row"><span>Gearbox</span><span>5-Speed Manual</span></div>
+                </div>
+            </div>
+            <div class="dcard reveal-section" style="--delay:0.15s">
+                <div class="dcard-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 7l9-4 9 4v10l-9 4-9-4V7z"/><path d="M12 3v18M3 7l9 4 9-4"/></svg>
+                </div>
+                <div class="dcard-bar"></div>
+                <h3>Steel Monocoque Chassis</h3>
+                <p>High-tensile unibody construction delivers exceptional rigidity-to-weight ratio — safety and agility in every situation.</p>
+                <div class="dcard-specs">
+                    <div class="ds-row"><span>Body</span><span>Monocoque Unibody</span></div>
+                    <div class="ds-row"><span>Wheelbase</span><span>2,175 mm</span></div>
+                    <div class="ds-row"><span>Kerb Weight</span><span>720 kg</span></div>
+                    <div class="ds-row"><span>Clearance</span><span>165 mm</span></div>
+                </div>
+            </div>
+            <div class="dcard reveal-section" style="--delay:0.3s">
+                <div class="dcard-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                </div>
+                <div class="dcard-bar"></div>
+                <h3>Tuned Suspension</h3>
+                <p>MacPherson strut front and 3-link rigid rear — calibrated specifically to absorb Pakistan's road conditions effortlessly.</p>
+                <div class="dcard-specs">
+                    <div class="ds-row"><span>Front</span><span>MacPherson Strut</span></div>
+                    <div class="ds-row"><span>Rear</span><span>3-Link Rigid Axle</span></div>
+                    <div class="ds-row"><span>Brakes (F)</span><span>Disc</span></div>
+                    <div class="ds-row"><span>Brakes (R)</span><span>Drum</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Performance -->
+<section class="perf-section" id="performance">
+    <div class="perf-bg-glow"></div>
+    <div class="container">
+        <div class="sec-header reveal-section">
+            <div class="sec-label">Performance</div>
+            <h2 class="sec-heading">Built for the <em>long haul.</em></h2>
+        </div>
+        <div class="perf-layout">
+            <div class="perf-hero-card reveal-section">
+                <div class="phc-num">38<span>km/l</span></div>
+                <div class="phc-label">Highway Fuel Economy</div>
+                <p class="phc-desc">The Mehran's lightweight build and refined F8B engine deliver class-leading fuel efficiency — the most economical choice on Pakistan's roads.</p>
+                <div class="perf-bar-wrap">
+                    <div class="perf-bar" id="perf-bar-fuel"></div>
+                </div>
+            </div>
+            <div class="perf-mini-grid">
+                <div class="pmc reveal-section" style="--delay:0.1s">
+                    <div class="pmc-num">14.2<span>s</span></div>
+                    <div class="pmc-label">0–100 km/h</div>
+                </div>
+                <div class="pmc reveal-section" style="--delay:0.2s">
+                    <div class="pmc-num">140<span>km/h</span></div>
+                    <div class="pmc-label">Top Speed</div>
+                </div>
+                <div class="pmc reveal-section" style="--delay:0.3s">
+                    <div class="pmc-num">30<span>L</span></div>
+                    <div class="pmc-label">Fuel Tank</div>
+                </div>
+                <div class="pmc reveal-section" style="--delay:0.4s">
+                    <div class="pmc-num">1,140<span>km</span></div>
+                    <div class="pmc-label">Estimated Range</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Full Specs -->
+<section class="specs-bsec" id="specs">
+    <div class="container">
+        <div class="sec-header reveal-section">
+            <div class="sec-label">Specifications</div>
+            <h2 class="sec-heading">Full <em>Specs.</em></h2>
+        </div>
+        <div class="specs-panel reveal-section">
+            <div class="specs-col">
+                <div class="sg-title">Dimensions</div>
+                <div class="sr"><span>Length</span><span>3,295 mm</span></div>
+                <div class="sr"><span>Width</span><span>1,395 mm</span></div>
+                <div class="sr"><span>Height</span><span>1,420 mm</span></div>
+                <div class="sr"><span>Wheelbase</span><span>2,175 mm</span></div>
+                <div class="sr"><span>Seating</span><span>4 Persons</span></div>
+                <div class="sg-title" style="margin-top:2rem">Engine</div>
+                <div class="sr"><span>Code</span><span>F8B</span></div>
+                <div class="sr"><span>Displacement</span><span>796 cc</span></div>
+                <div class="sr"><span>Config</span><span>Inline-3, SOHC</span></div>
+                <div class="sr"><span>Fuel System</span><span>Carburettor</span></div>
+                <div class="sr"><span>Fuel Type</span><span>Petrol</span></div>
+            </div>
+            <div class="specs-col">
+                <div class="sg-title">Performance</div>
+                <div class="sr"><span>Max Power</span><span>38 bhp @ 5,500 rpm</span></div>
+                <div class="sr"><span>Max Torque</span><span>59 Nm @ 3,000 rpm</span></div>
+                <div class="sr"><span>Top Speed</span><span>~140 km/h</span></div>
+                <div class="sr"><span>0–100 km/h</span><span>~14.2 seconds</span></div>
+                <div class="sg-title" style="margin-top:2rem">Drivetrain</div>
+                <div class="sr"><span>Drive</span><span>Front-Wheel Drive</span></div>
+                <div class="sr"><span>Gearbox</span><span>5-Speed Manual</span></div>
+                <div class="sr"><span>Steering</span><span>Rack &amp; Pinion</span></div>
+                <div class="sr"><span>Tyres</span><span>145/70 R12</span></div>
+                <div class="sr"><span>Fuel Tank</span><span>30 Litres</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Heritage Quote -->
+<section class="quote-bsec">
+    <div class="container">
+        <div class="hq-wrap reveal-section">
+            <div class="hq-line"></div>
+            <blockquote class="hq">
+                <span class="qm">"</span>The Mehran is not just a car.<br>It is the story of every Pakistani family.<span class="qm">"</span>
+            </blockquote>
+            <p class="qa">— Suzuki Pakistan, 1989–2019</p>
+            <div class="hq-line"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer / Buy -->
+<footer class="site-footer" id="buy">
+    <div class="footer-glow"></div>
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer-brand">Suzuki <em>Mehran</em></div>
+            <p class="footer-tagline">Pakistan's Legend, Reimagined.</p>
+            <a href="#" class="btn-primary footer-btn" id="footer-buy-btn">Experience the Mehran</a>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-nav">
+            <a href="#overview">Overview</a>
+            <a href="#engineering">Engineering</a>
+            <a href="#performance">Performance</a>
+            <a href="#specs">Specs</a>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2024 Suzuki Pakistan. All rights reserved.</span>
+            <span class="footer-heart">Crafted with ♥ in Pakistan</span>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
